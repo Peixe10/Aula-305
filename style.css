@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
 
 #menu{
@@ -15,12 +17,46 @@
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-    background-color: blue;
-
-
+    background-color: black;
+    border-bottom: 1px solid white;
 }
 
 #div1{
+    height: 100vh;
+    background-image: url(img/banner1.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.ajuste1{
+    height: 55vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.botao{
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    opacity: 0.3;
+    box-shadow: 0;
+    outline: 0;
+}
+
+.botao:hover{
+    width: 20%;
+    height: 10%;
+    background-color: white;
+    color: black;
+    opacity: 1;
+
+}
+
+.ajuste1 p{
+    text-align: center;
 }
